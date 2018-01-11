@@ -45,7 +45,7 @@ async function monitor(transporter) {
     console.log(error)
   } finally {
     // 隔一段时间再请求
-    await sleep()
+    await sleep(config.delayTime)
     return monitor(transporter)
   }
 }
