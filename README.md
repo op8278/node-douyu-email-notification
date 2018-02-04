@@ -7,7 +7,7 @@ Node.js小脚本,实现每10秒刷新斗鱼tv房间信息,若监听的主播开�
 
 ### 例子
 ![proto](https://github.com/op8278/node-douyu-email-notification/blob/master/screenshots/example1.png)
-![proto](https://github.com/op8278/node-douyu-email-notification/blob/master/screenshots/example2.png)
+<img src="https://github.com/op8278/node-douyu-email-notification/blob/master/screenshots/example2.png" width="365" height="619"/>
 
 ### 配置
 需要自己配置 `config/config.js` 文件：
