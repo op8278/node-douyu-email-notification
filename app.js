@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer')
 
-const { sleep, getAllDouyuRoomInfoPromise, sendMail } = require('./util')
-const config = require('./config.js')
+const { sleep, getAllDouyuRoomInfoPromise, sendMail } = require('./uti/util.js')
+const config = require('./config/config.js')
 
 let preStreamState = {} // 主播之前的开播状态
 
