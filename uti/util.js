@@ -1,5 +1,5 @@
 const axios = require('axios')
-const config = require('./config.js')
+const config = require('../config/config.js')
 
 // 延迟函数
 function sleep(ms = 1000 * 10) { // 默认10秒
