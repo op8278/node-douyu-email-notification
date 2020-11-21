@@ -37,8 +37,8 @@ async function getFinalInfoByRoomIdPromise(roomId) {
       const {
         data: { data: loopVideoInfo, error: errorCode },
       } = await getDouyLoopVideoInfoByRoomId(roomId)
-      // isShowLoopLogo: 1(录像播放中),0(没有录像)
-      if (loopVideoInfo.isShowLoopLogo == 1) {
+      // vid: 录像id,如果不播放录像的话,为空字符串
+      if (loopVideoInfo.vid) {
         isLive = false
       }
     }
