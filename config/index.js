@@ -27,9 +27,9 @@ module.exports = {
     roomApi: `http://open.douyucdn.cn/api/RoomApi/room/`,
     /** 录像API */
     loopVideoApi: 'https://www.douyu.com/wgapi/live/liveweb/getRoomLoopInfo',
-    /** 斗鱼房间号或者别名 */
+    /** 斗鱼房间号 */
     roomId: [
-      'zard',
+      '60937', // zard房间号
       '9999', // yyf房间号
     ],
   },
