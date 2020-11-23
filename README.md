@@ -8,8 +8,12 @@ Node.js小脚本,实现每10秒刷新斗鱼tv房间信息,若监听的主播开�
 ### 例子
 ![proto](https://github.com/op8278/node-douyu-email-notification/blob/master/screenshots/example1.png)
 
+### V1.1
+`2020-11-21`
+- 🌟 增加忽略录像状态的配置 `isIgnoreLoopVideo`。
+
 ### 配置
-需要自己配置 `config/config.js` 文件：
+需要自己配置 `config/index.js` 文件：
 - `isIgnoreLoopVideo` ： 是否忽略录像状态(为true时,录像状态视作为下播状态,默认为true)
 - `senderEmail` ： 发送方的邮箱帐号
 - `transporter.auth.pass` ： 发送方的邮箱授权码(非邮箱登录密码!!!)
